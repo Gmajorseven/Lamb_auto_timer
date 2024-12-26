@@ -10,9 +10,9 @@ const int relayPin = 13;
 
 DateTime now;
 const int on_hour = 17;
-const int on_mintue = 45;
+const int on_mintue = 30;
 const int off_hour = 5;
-const int off_minute = 45;
+const int off_minute = 50;
 
 void lightOn() {
   digitalWrite(relayPin, HIGH);
@@ -79,7 +79,8 @@ void loop() {
       lightOn();
 
     } else {
-
+      //test
+      //lightOn();
       lightOff();
 
     }
@@ -91,7 +92,8 @@ void loop() {
       lightOn();
 
     } else {
-
+      //test
+      //lightOn();
       lightOff();
 
     }
