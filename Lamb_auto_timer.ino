@@ -81,7 +81,7 @@ void loop() {
   lcd.print(now.second());
 
   int current_time_in_minutes = curent_hour * 60 + curent_minute;
-  int on_time_in_minutes = on_hour * 60 + on_mintue;
+  int on_time_in_minutes = on_hour * 60 + on_minute;
   int off_time_in_munutes = off_hour * 60 + off_minute;
 
   if(on_time_in_minutes < off_time_in_munutes) {
